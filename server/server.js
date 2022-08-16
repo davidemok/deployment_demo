@@ -18,4 +18,5 @@ app.get('/js', getJava)
 const port = process.env.PORT || 4000
 
 
-app.listen(4000, console.log("bubberduck, we are a go at 4000"))
+
+app.listen(port, console.log("bubberduck, we are a go at 4000"))
