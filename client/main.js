@@ -2,7 +2,7 @@ let duck = document.querySelector('img') //if made id duck would type '#duck'
 
 
 const say = evt => {
-    alert("OMAEWAMO SHINDEIRU")
+    alert("BUBBERDUCK")
 }
 
 duck.addEventListener('click', say)
